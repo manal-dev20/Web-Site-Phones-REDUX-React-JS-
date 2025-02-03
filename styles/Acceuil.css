@@ -1,0 +1,79 @@
+body{
+    background-image:url("background.jpg");
+}
+.acceuil {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Bannière */
+  .banner {
+   
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+  .banner h1 {
+    font-size: 36px;
+    color: #000000;
+  }
+  .banner p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000000;
+  }
+  .banner .shop-now {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: #a8d2ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .banner .shop-now:hover {
+    background-color: #c9e2fc;
+  }
+  
+  /* Promotions */
+  .promotions h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #000000;
+  }
+  .product-list {
+    display: flex;
+    justify-content: center; /* Centres the products horizontally */
+    gap: 50px; /* Spacing between products */
+    margin: 100px;
+    width: 80%; /* Adjust the width as needed */
+    flex-wrap: wrap; /* Allows wrapping to the next row if needed */
+}
+
+.product {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between rows if needed */
+}
+
+  .product img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .product p {
+    font-size: 16px;
+    color: #555;
+  }

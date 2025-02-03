@@ -1,0 +1,93 @@
+/* Style général de la page de paiement */
+.payment-page {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style du titre principal */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Style des champs du formulaire */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style des labels des champs de formulaire */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Style des champs de texte */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+}
+
+/* Style des champs de texte au survol */
+input:focus {
+    outline: none;
+    border-color: #28a745;
+    background-color: #fff;
+}
+
+/* Style du bouton de soumission */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #218838;
+}
+
+/* Style du message d'erreur */
+.message-error {
+    text-align: center;
+    color: #dc3545; /* Rouge */
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Style du message de succès */
+.message-success {
+    text-align: center;
+    color: #28a745; /* Vert */
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Ajouter un peu d'espace entre le bouton et le message */
+.message-error + button,
+.message-success + button {
+    margin-top: 10px;
+}

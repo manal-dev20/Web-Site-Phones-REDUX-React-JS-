@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 14",
+    "price": "10999",
+    "description": "Superbe téléphone Apple avec un processeur rapide.",
+    "image": "ihpne14.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23",
+    "price": "8799",
+    "description": "Le dernier modèle de Samsung, performance exceptionnelle.",
+    "image": "Samsung Galaxy S23.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 7",
+    "price": "7299",
+    "description": "Téléphone avec caméra de haute qualité et Android pur.",
+    "image": "Google Pixel 7.jpg"
+  },
+  {
+    "id": 4,
+    "name": "iPhone 13",
+    "price": "8999",
+    "description": "Modèle précédent avec un excellent rapport qualité-prix.",
+    "image": "iphone13.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy Z Fold 4",
+    "price": "17999",
+    "description": "Smartphone pliable avec un grand écran innovant.",
+    "image": "galaxyZFold4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "OnePlus 11",
+    "price": "9299",
+    "description": "Téléphone haut de gamme avec un écran AMOLED et une performance rapide.",
+    "image": "oneplus11.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Xiaomi Mi 13",
+    "price": "7999",
+    "description": "Smartphone performant à un prix abordable.",
+    "image": "xiaomiMi13.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Huawei P50 Pro",
+    "price": "10999",
+    "description": "Appareil photo impressionnant et batterie longue durée.",
+    "image": "huaweiP50Pro.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Samsung Galaxy S22",
+    "price": "7999",
+    "description": "Modèle précédent de la série S, avec un design élégant.",
+    "image": "galaxyS22.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Oppo Find X5 Pro",
+    "price": "11499",
+    "description": "Téléphone avec une excellente caméra et un design futuriste.",
+    "image": "oppoFindX5Pro.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Sony Xperia 1 IV",
+    "price": "11999",
+    "description": "Smartphone conçu pour les passionnés de photo et vidéo.",
+    "image": "sonyXperia1IV.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Realme GT 2 Pro",
+    "price": "8499",
+    "description": "Téléphone ultra-rapide avec un design moderne.",
+    "image": "realmeGT2Pro.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Asus ROG Phone 6",
+    "price": "12999",
+    "description": "Téléphone gaming avec une puissance extrême.",
+    "image": "asusROGPhone6.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Vivo X80 Pro",
+    "price": "9999",
+    "description": "Smartphone haut de gamme avec caméra professionnelle.",
+    "image": "vivoX80Pro.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Xiaomi Redmi Note 12",
+    "price": "4999",
+    "description": "Téléphone avec un excellent rapport qualité-prix.",
+    "image": "xiaomiRedmiNote12.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Nokia X30 5G",
+    "price": "6499",
+    "description": "Smartphone durable avec un bon appareil photo.",
+    "image": "nokiaX30.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Motorola Edge 30",
+    "price": "8499",
+    "description": "Smartphone avec un design mince et un écran AMOLED.",
+    "image": "motorolaEdge30.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Samsung Galaxy A54",
+    "price": "5499",
+    "description": "Un excellent choix dans la gamme de prix milieu de gamme.",
+    "image": "galaxyA54.jpg"
+  },
+  {
+    "id": 19,
+    "name": "iPhone SE 2022",
+    "price": "5999",
+    "description": "Petit mais puissant, parfait pour les utilisateurs d'Apple.",
+    "image": "iphoneSE2022.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Xiaomi Poco X5 Pro",
+    "price": "6999",
+    "description": "Téléphone économique avec un écran rapide et un bon processeur.",
+    "image": "xiaomiPocoX5Pro.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Google Pixel 6a",
+    "price": "4999",
+    "description": "Android pur avec une très bonne caméra.",
+    "image": "pixel6a.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Samsung Galaxy Z Flip 4",
+    "price": "16999",
+    "description": "Téléphone pliable compact et élégant.",
+    "image": "galaxyZFlip4.jpg"
+  },
+  {
+    "id": 23,
+    "name": "OnePlus Nord 2T",
+    "price": "6499",
+    "description": "Modèle abordable avec une bonne performance et design.",
+    "image": "oneplusNord2T.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Huawei Mate 50 Pro",
+    "price": "12999",
+    "description": "Appareil photo de qualité professionnelle et design premium.",
+    "image": "huaweiMate50Pro.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Infinix Zero Ultra",
+    "price": "7499",
+    "description": "Smartphone avec un grand écran et une batterie longue durée.",
+    "image": "infinixZeroUltra.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Realme GT Neo 3",
+    "price": "8699",
+    "description": "Performance rapide et design élégant.",
+    "image": "realmeGTNeo3.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Vivo V23 5G",
+    "price": "7999",
+    "description": "Téléphone avec une excellente caméra et un design unique.",
+    "image": "vivoV23.jpg"
+  }
+]

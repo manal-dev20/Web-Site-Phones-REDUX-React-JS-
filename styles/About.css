@@ -1,0 +1,81 @@
+/* Style général pour le formulaire */
+.contact-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style des groupes de champs */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Style pour le bouton */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour les messages d'erreur et de succès */
+  .error-message {
+    background-color: #ffdddd;
+    color: #d9534f;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d9534f;
+    border-radius: 5px;
+  }
+  
+  .success-message {
+    background-color: #d4edda;
+    color: #28a745;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,126 @@
+/* Barre de recherche */
+.search-container {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Conteneur principal des produits */
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer tout le contenu */
+    margin: 20px 0;
+  }
+  
+  .product-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Afficher 4 cartes par ligne */
+    gap: 20px; /* Espacement entre les cartes */
+    justify-items: center;
+    width: 100%;
+    max-width: 1200px; /* Largeur maximale pour limiter */
+  }
+  
+  /* Style pour chaque carte produit */
+  .product-list ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    width: 100%; /* Assure que chaque carte occupe son espace */
+    max-width: 250px; /* Taille maximale des cartes */
+  }
+  
+  .product-list ul li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-list ul li img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-list ul li h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .product-list ul li p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .product-list ul li button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .product-list ul li button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pagination en bas de la page */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 20px 0;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination .active {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styling (au cas où) */
+  footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
