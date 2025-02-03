@@ -1,37 +1,32 @@
-/* Style général pour le menu */
+
 ul {
     list-style-type: none;
     margin: 10px;
     padding: 10px;
     display: flex;
-    justify-content: space-between; /* Espace égal entre les éléments */
-    width: 100%; /* Prendre toute la largeur disponible */
+    justify-content: space-between; 
+    width: 100%; 
 }
 
-/* Style des éléments de la liste */
 li {
-    flex: 1; /* Chaque élément prend une part égale de l'espace */
-    margin: 0 5px; /* Espacement entre les éléments */
-    text-align: center; /* Centrer le contenu dans chaque élément */
+    flex: 1; 
+    margin: 0 5px; 
+    text-align: center; 
 }
 
-/* Style des liens */
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 18px;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
-    display: block; /* Le lien devient un bloc pour occuper toute la largeur de l'élément li */
+    display: block; 
 }
 
-/* Effet au survol des liens */
 a:hover {
     background-color: #a1c3ee;
     border-radius: 5px;
 }
-
-/* Responsive : colonne sur petits écrans */
 @media (max-width: 768px) {
     ul {
         flex-direction: column;

@@ -1,4 +1,4 @@
-/* Barre de recherche */
+
 .search-container {
     width: 100%;
     background-color: #f8f9fa;
@@ -15,11 +15,10 @@
     border-radius: 5px;
   }
   
-  /* Conteneur principal des produits */
   .product-list {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrer tout le contenu */
+    align-items: center; 
     margin: 20px 0;
   }
   
@@ -28,14 +27,13 @@
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Afficher 4 cartes par ligne */
-    gap: 20px; /* Espacement entre les cartes */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
     justify-items: center;
     width: 100%;
-    max-width: 1200px; /* Largeur maximale pour limiter */
+    max-width: 1200px; 
   }
   
-  /* Style pour chaque carte produit */
   .product-list ul li {
     display: flex;
     flex-direction: column;
@@ -46,8 +44,8 @@
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
-    width: 100%; /* Assure que chaque carte occupe son espace */
-    max-width: 250px; /* Taille maximale des cartes */
+    width: 100%; 
+    max-width: 250px; 
   }
   
   .product-list ul li:hover {
@@ -87,7 +85,6 @@
     background-color: #0056b3;
   }
   
-  /* Pagination en bas de la page */
   .pagination {
     display: flex;
     justify-content: center;
@@ -115,7 +112,6 @@
     background-color: #0056b3;
   }
   
-  /* Footer styling (au cas où) */
   footer {
     background-color: #f8f9fa;
     text-align: center;

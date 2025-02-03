@@ -1,4 +1,4 @@
-/* Style général pour le formulaire */
+
 .contact-form {
     max-width: 600px;
     margin: 50px auto;
@@ -16,7 +16,6 @@
     margin-bottom: 20px;
   }
   
-  /* Style des groupes de champs */
   .form-group {
     margin-bottom: 15px;
   }
@@ -44,7 +43,6 @@
     outline: none;
   }
   
-  /* Style pour le bouton */
   button {
     width: 100%;
     padding: 12px;
@@ -60,7 +58,6 @@
     background-color: #0056b3;
   }
   
-  /* Style pour les messages d'erreur et de succès */
   .error-message {
     background-color: #ffdddd;
     color: #d9534f;

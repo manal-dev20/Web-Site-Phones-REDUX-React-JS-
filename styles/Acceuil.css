@@ -7,7 +7,6 @@ body{
     padding: 20px;
   }
   
-  /* Bannière */
   .banner {
    
     padding: 50px 20px;
@@ -36,7 +35,6 @@ body{
     background-color: #c9e2fc;
   }
   
-  /* Promotions */
   .promotions h2 {
     margin-bottom: 20px;
     font-size: 28px;
@@ -44,11 +42,11 @@ body{
   }
   .product-list {
     display: flex;
-    justify-content: center; /* Centres the products horizontally */
-    gap: 50px; /* Spacing between products */
+    justify-content: center; 
+    gap: 50px; 
     margin: 100px;
-    width: 80%; /* Adjust the width as needed */
-    flex-wrap: wrap; /* Allows wrapping to the next row if needed */
+    width: 80%; 
+    flex-wrap: wrap; 
 }
 
 .product {
@@ -59,7 +57,7 @@ body{
     padding: 15px;
     width: 200px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Space between rows if needed */
+    margin-bottom: 20px; 
 }
 
   .product img {
